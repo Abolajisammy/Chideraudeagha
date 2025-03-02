@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(17, 17, 17);
+
+}
+.intro{
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images-1/Option\ 1.jpeg);
+    box-shadow: inset 2000px 0 0 0 rgb(0, 0, 0, 0.6);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 0px;
+    background-color: rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-nav h2{
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.intro h1{
+    color: beige;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 40px;
+}
+.sections{
+    width: calc(100% - 40px);
+    padding: 40px 20px;
+    border-bottom: solid 0.5px rgba(58, 58, 58, 0.1);
+}
+.sections h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0px;
+}
+.sections p{
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 0px;
+}
+.sections img{
+    width: 40px;
+}
+.skilset{
+
+}
+.skilset h3{
+    width: 100%;
+}
+.skill-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 40px);
+    padding: 40px 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.skill-wrapper img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.skill-wrapper h6{
+    font-size: 18px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px 0px;
+}
+.skill-wrapper p{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 18px;
+    margin: 5px 0px;
+}
+.certifiction ul{
+    display: flex;
+    flex-flow: column;
+    align-items: first baseline;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.certifiction ul li{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.certifiction ul li img{
+    width: 30px;
+    margin-left: 20px;
+}
+.education ul{
+    display: flex;
+    flex-flow: column;
+    align-items: first baseline;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.education ul li{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.education ul li img{
+    width: 30px;
+    margin-left: 20px;
+}
+.education-wrapper{
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 40px 0px;
+}
+.edu-info{
+    display: flex;
+    flex-flow: column;
+    padding: 10px 0px;
+    justify-content: first baseline;
+}
+.edu-info h5{
+    margin: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.edu-info h6{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.service{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+.service p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+.service ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding: 20px 0px;
+    list-style: none;
+    width: 100%;
+}
+.service ul li{
+    margin: 10px 0px;
+    padding: 20px 10px;
+    background-color: rgb(34, 34, 34);
+    width: calc(100% - 40px);
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.tools-total h3{
+    margin-bottom: 50px;
+}
+.tools{
+    padding: 20px 10px;
+    width: calc(100% - 20px);
+    margin: 20px 0px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+}
+.tools h6{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.tools p{
+    background-color: rgb(18, 53, 18);
+    padding: 2px 10px;
+    width: fit-content;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.experience{
+
+}
+.experience-wrapper{
+    padding: 20px;
+}
+.experience-wrapper h5{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: red;`
+}
+.experience-wrapper ul{
+    list-style: circle;
+    width: 100%;
+}
+.experience-wrapper ul li{
+    color: white;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    width: calc(100% - 20px);
+}
+.work{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0px;
+}
+.work-wrapper{
+    text-decoration: none;
+    width: 40%;
+    height: 12vh;
+    margin: 20px 10px;
+}
+.work-one{
+    color: rgb(63, 38, 6);
+    margin: 20px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.work-one div{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-one h6{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+}
+.asana{
+    background-image: url(/jobs/email-management.png);
+}
+.email-management{
+    background-image: url(/jobs/asana.png);
+}
+.trello{
+    background-image: url(/jobs/trello.png);
+}
+.click-up{
+    background-image: url(/jobs/clickup.png);
+}
+.file-management{
+    background-image: url(/jobs/file-management.png);
+}
+.zapier{
+    background-image: url(/jobs/zapier.png);
+}
+.canva-one{
+    background-image: url(/jobs/canva.png);
+}
+.canva-two{
+    background-image: url(/images-1/dose-media-bU6JyhSI6zo-unsplash.jpg);
+}
+.data-entry{
+    background-image: url(/jobs/data-entry.png);
+}
+.asana{
+    background-image: url(/jobs/asana.png);
+}
+.asana{
+    background-image: url(/jobs/asana.png);
+}
+.asana{
+    background-image: url(/jobs/asana.png);
+}
+.asana{
+    background-image: url(/jobs/asana.png);
+}
+
+
+
+
+
+
+.review h3{
+    margin-bottom: 50px;
+}
+.review-wrapper{
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+
+}
+.review-wrapper article{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.review-wrapper h5{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.quote-wrapper{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: end;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: black;
+    background-image: url(/images-1/Option\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 5px 0px;
+}
+footer h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+footer h6 a{
+    text-decoration: none;
+}
